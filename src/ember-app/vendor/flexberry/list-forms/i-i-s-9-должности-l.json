@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-9-должности-e",
+  "editForm": "i-i-s-9-должности-e",
+  "external": false,
+  "caption": "Должности",
+  "name": "IIS9ДолжностиL",
+  "className": "ДолжностиL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-9-должности",
+      "modelProjection": "ДолжностиL"
+    }
+  ]
+}

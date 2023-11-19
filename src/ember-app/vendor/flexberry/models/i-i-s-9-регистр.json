@@ -1,0 +1,93 @@
+﻿{
+  "name": "IIS9Регистр",
+  "modelName": "i-i-s-9-регистр",
+  "className": "Регистр",
+  "nameSpace": "IIS.9",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "кодРегист",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "наимен",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "период",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "регистрат",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "РегистрE",
+      "modelName": "i-i-s-9-регистр",
+      "attrs": [
+        {
+          "name": "регистрат",
+          "caption": "Регистрат",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "период",
+          "caption": "Период",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "РегистрL",
+      "modelName": "i-i-s-9-регистр",
+      "attrs": [
+        {
+          "name": "регистрат",
+          "caption": "Регистрат",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "период",
+          "caption": "Период",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

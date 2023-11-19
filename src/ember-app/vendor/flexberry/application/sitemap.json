@@ -1,0 +1,57 @@
+﻿{
+  "applicationCaption": "9",
+  "applicationTitle": "9",
+  "items": [
+    {
+      "link": null,
+      "menuName": "9",
+      "caption": "9",
+      "title": "9",
+      "children": [
+        {
+          "link": "i-i-s-9-регистр-l",
+          "menuName": null,
+          "caption": "Регистр",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-9-сотрудник-l",
+          "menuName": null,
+          "caption": "Сотрудник",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-9-заявка-l",
+          "menuName": null,
+          "caption": "Заявка",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-9-записи-l",
+          "menuName": null,
+          "caption": "Записи",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-9-должности-l",
+          "menuName": null,
+          "caption": "Должности",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-9-контрагент-l",
+          "menuName": null,
+          "caption": "Контрагент",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-9-записи-e",
+  "editForm": "i-i-s-9-записи-e",
+  "external": false,
+  "caption": "Записи",
+  "name": "IIS9ЗаписиL",
+  "className": "ЗаписиL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-9-записи",
+      "modelProjection": "ЗаписиL"
+    }
+  ]
+}

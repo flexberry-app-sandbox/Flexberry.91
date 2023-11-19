@@ -1,0 +1,1 @@
+docker-compose -p 9 up -d

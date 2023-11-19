@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-9-заявка-e",
+  "editForm": "i-i-s-9-заявка-e",
+  "external": false,
+  "caption": "Заявка",
+  "name": "IIS9ЗаявкаL",
+  "className": "ЗаявкаL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-9-заявка",
+      "modelProjection": "ЗаявкаL"
+    }
+  ]
+}
