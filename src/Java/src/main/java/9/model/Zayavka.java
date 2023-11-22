@@ -25,9 +25,6 @@ public class Zayavka {
     @Column(name = "Текст")
     private String текст;
 
-    @Column(name = "Контр")
-    private Integer контр;
-
     @Column(name = "Состоян")
     private String состоян;
 
@@ -76,14 +73,6 @@ public class Zayavka {
 
     public void setТекст(String текст) {
       this.текст = текст;
-    }
-
-    public Integer getКонтр() {
-      return контр;
-    }
-
-    public void setКонтр(Integer контр) {
-      this.контр = контр;
     }
 
     public String getСостоян() {

@@ -1,5 +1,22 @@
 ﻿{
-  "propertyLookup": [],
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Заявка",
+      "projection": "ЗаявкаL",
+      "detailModelName": null
+    },
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Регистр",
+      "projection": "РегистрL",
+      "detailModelName": null
+    }
+  ],
   "external": false,
   "caption": "Записи",
   "name": "IIS9ЗаписиE",

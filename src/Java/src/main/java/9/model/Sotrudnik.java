@@ -25,9 +25,6 @@ public class Sotrudnik {
     @Column(name = "Фамил")
     private String фамил;
 
-    @Column(name = "КодДолж")
-    private Integer коддолж;
-
     @Column(name = "ТабНом")
     private String табном;
 
@@ -72,14 +69,6 @@ public class Sotrudnik {
 
     public void setФамил(String фамил) {
       this.фамил = фамил;
-    }
-
-    public Integer getКодДолж() {
-      return коддолж;
-    }
-
-    public void setКодДолж(Integer коддолж) {
-      this.коддолж = коддолж;
     }
 
     public String getТабНом() {

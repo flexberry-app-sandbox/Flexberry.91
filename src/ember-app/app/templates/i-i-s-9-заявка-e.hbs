@@ -34,4 +34,66 @@
     }}
     {{flexberry-validationmessage error=(v-get validationModel "текст" "message")}}
   </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=readonly
+      value=model.важност
+      class=(if (v-get validationModel "важност" "isInvalid") "error")
+      label=(t "forms.i-i-s-9-заявка-e.важност-caption")
+      data-test-i-i-s-9-заявка-e-важност=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "важност" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=readonly
+      value=model.номЗаяв
+      class=(if (v-get validationModel "номЗаяв" "isInvalid") "error")
+      label=(t "forms.i-i-s-9-заявка-e.номЗаяв-caption")
+      data-test-i-i-s-9-заявка-e-номЗаяв=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "номЗаяв" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=readonly
+      value=model.состоян
+      class=(if (v-get validationModel "состоян" "isInvalid") "error")
+      label=(t "forms.i-i-s-9-заявка-e.состоян-caption")
+      data-test-i-i-s-9-заявка-e-состоян=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "состоян" "message")}}
+  </div>
+  <div class="field">
+    <label>{{t "forms.i-i-s-9-заявка-e.контрагент-caption"}}</label>
+    {{flexberry-lookup
+      choose="showLookupDialog"
+      remove="removeLookupValue"
+      value=model.контрагент
+      relationName="контрагент"
+      projection="КонтрагентL"
+      title=(t "forms.i-i-s-9-заявка-e.контрагент-caption")
+      readonly=readonly
+      componentName="контрагентLookup"
+      class=(if (v-get validationModel "контрагент" "isInvalid") "error")
+      data-test-i-i-s-9-заявка-e-контрагент=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "контрагент" "message")}}
+  </div>
+  <div class="field">
+    <label>{{t "forms.i-i-s-9-заявка-e.сотрудник-caption"}}</label>
+    {{flexberry-lookup
+      choose="showLookupDialog"
+      remove="removeLookupValue"
+      value=model.сотрудник
+      relationName="сотрудник"
+      projection="СотрудникL"
+      title=(t "forms.i-i-s-9-заявка-e.сотрудник-caption")
+      readonly=readonly
+      componentName="сотрудникLookup"
+      class=(if (v-get validationModel "сотрудник" "isInvalid") "error")
+      data-test-i-i-s-9-заявка-e-сотрудник=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "сотрудник" "message")}}
+  </div>
 </form>

@@ -16,15 +16,6 @@
       "ordered": false
     },
     {
-      "name": "кодДолж",
-      "type": "number",
-      "flexberryType": "int",
-      "notNull": false,
-      "defaultValue": "",
-      "stored": true,
-      "ordered": false
-    },
-    {
       "name": "номПасп",
       "type": "number",
       "flexberryType": "int",
@@ -86,16 +77,40 @@
       "modelName": "i-i-s-9-сотрудник",
       "attrs": [
         {
-          "name": "кодДолж",
-          "caption": "Код долж",
+          "name": "имя",
+          "caption": "Имя",
           "hidden": false,
           "index": 0
         },
         {
-          "name": "имя",
-          "caption": "Имя",
+          "name": "фамил",
+          "caption": "",
           "hidden": false,
           "index": 1
+        },
+        {
+          "name": "отчест",
+          "caption": "",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "номПасп",
+          "caption": "",
+          "hidden": false,
+          "index": 4
+        },
+        {
+          "name": "серия",
+          "caption": "",
+          "hidden": false,
+          "index": 5
+        },
+        {
+          "name": "табНом",
+          "caption": "",
+          "hidden": false,
+          "index": 6
         }
       ],
       "belongsTo": [
@@ -106,7 +121,7 @@
           "belongsTo": [],
           "hidden": false,
           "attrs": [],
-          "index": 2,
+          "index": 3,
           "type": "default",
           "caption": "Должности",
           "name": "должности",

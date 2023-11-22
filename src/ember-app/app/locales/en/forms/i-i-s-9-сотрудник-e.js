@@ -1,6 +1,11 @@
 export default {
   caption: 'Сотрудник',
-  'кодДолж-caption': 'Код долж',
   'имя-caption': 'Имя',
-  'должности-caption': ''
+  'фамил-caption': '',
+  'отчест-caption': '',
+  'номПасп-caption': '',
+  'серия-caption': '',
+  'табНом-caption': '',
+  'должности-caption': '',
+  'кодДолж-caption': 'Код долж'
 };

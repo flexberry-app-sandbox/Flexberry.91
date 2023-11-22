@@ -6,7 +6,6 @@ import { attr, belongsTo, hasMany } from 'ember-flexberry-data/utils/attributes'
 
 export let Model = Mixin.create({
   имя: DS.attr('string'),
-  кодДолж: DS.attr('number'),
   номПасп: DS.attr('number'),
   отчест: DS.attr('string'),
   серия: DS.attr('number'),
@@ -20,13 +19,6 @@ export let ValidationRules = {
     descriptionKey: 'models.i-i-s-9-сотрудник.validations.имя.__caption__',
     validators: [
       validator('ds-error'),
-    ],
-  },
-  кодДолж: {
-    descriptionKey: 'models.i-i-s-9-сотрудник.validations.кодДолж.__caption__',
-    validators: [
-      validator('ds-error'),
-      validator('number', { allowString: true, allowBlank: true, integer: true }),
     ],
   },
   номПасп: {
@@ -72,11 +64,15 @@ export let ValidationRules = {
 
 export let defineProjections = function (modelClass) {
   modelClass.defineProjection('СотрудникE', 'i-i-s-9-сотрудник', {
-    кодДолж: attr('Код долж', { index: 0 }),
-    имя: attr('Имя', { index: 1 }),
+    имя: attr('Имя', { index: 0 }),
+    фамил: attr('', { index: 1 }),
+    отчест: attr('', { index: 2 }),
+    номПасп: attr('', { index: 4 }),
+    серия: attr('', { index: 5 }),
+    табНом: attr('', { index: 6 }),
     должности: belongsTo('i-i-s-9-должности', 'Должности', {
 
-    }, { index: 2 })
+    }, { index: 3 })
   });
 
   modelClass.defineProjection('СотрудникL', 'i-i-s-9-сотрудник', {

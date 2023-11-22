@@ -27,22 +27,32 @@
   <div class="field">
     {{flexberry-field
       readonly=readonly
-      value=model.кодДолж
-      class=(if (v-get validationModel "кодДолж" "isInvalid") "error")
-      label=(t "forms.i-i-s-9-сотрудник-e.кодДолж-caption")
-      data-test-i-i-s-9-сотрудник-e-кодДолж=true
-    }}
-    {{flexberry-validationmessage error=(v-get validationModel "кодДолж" "message")}}
-  </div>
-  <div class="field">
-    {{flexberry-field
-      readonly=readonly
       value=model.имя
       class=(if (v-get validationModel "имя" "isInvalid") "error")
       label=(t "forms.i-i-s-9-сотрудник-e.имя-caption")
       data-test-i-i-s-9-сотрудник-e-имя=true
     }}
     {{flexberry-validationmessage error=(v-get validationModel "имя" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=readonly
+      value=model.фамил
+      class=(if (v-get validationModel "фамил" "isInvalid") "error")
+      label=(t "forms.i-i-s-9-сотрудник-e.фамил-caption")
+      data-test-i-i-s-9-сотрудник-e-фамил=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "фамил" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=readonly
+      value=model.отчест
+      class=(if (v-get validationModel "отчест" "isInvalid") "error")
+      label=(t "forms.i-i-s-9-сотрудник-e.отчест-caption")
+      data-test-i-i-s-9-сотрудник-e-отчест=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "отчест" "message")}}
   </div>
   <div class="field">
     <label>{{t "forms.i-i-s-9-сотрудник-e.должности-caption"}}</label>
@@ -59,5 +69,35 @@
       data-test-i-i-s-9-сотрудник-e-должности=true
     }}
     {{flexberry-validationmessage error=(v-get validationModel "должности" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=readonly
+      value=model.номПасп
+      class=(if (v-get validationModel "номПасп" "isInvalid") "error")
+      label=(t "forms.i-i-s-9-сотрудник-e.номПасп-caption")
+      data-test-i-i-s-9-сотрудник-e-номПасп=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "номПасп" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=readonly
+      value=model.серия
+      class=(if (v-get validationModel "серия" "isInvalid") "error")
+      label=(t "forms.i-i-s-9-сотрудник-e.серия-caption")
+      data-test-i-i-s-9-сотрудник-e-серия=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "серия" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=readonly
+      value=model.табНом
+      class=(if (v-get validationModel "табНом" "isInvalid") "error")
+      label=(t "forms.i-i-s-9-сотрудник-e.табНом-caption")
+      data-test-i-i-s-9-сотрудник-e-табНом=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "табНом" "message")}}
   </div>
 </form>

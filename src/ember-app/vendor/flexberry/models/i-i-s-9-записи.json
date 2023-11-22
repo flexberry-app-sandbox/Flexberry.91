@@ -108,7 +108,36 @@
           "index": 3
         }
       ],
-      "belongsTo": [],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Заявка",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [],
+          "index": 4,
+          "type": "default",
+          "caption": "Заявка",
+          "name": "заявка",
+          "relatedTo": "i-i-s-9-заявка",
+          "inverse": null
+        },
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Регистр",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [],
+          "index": 5,
+          "type": "default",
+          "caption": "Регистр",
+          "name": "регистр",
+          "relatedTo": "i-i-s-9-регистр",
+          "inverse": null
+        }
+      ],
       "hasMany": []
     },
     {
@@ -140,7 +169,36 @@
           "index": 3
         }
       ],
-      "belongsTo": [],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Заявка",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [],
+          "index": 4,
+          "type": "default",
+          "caption": "Заявка",
+          "name": "заявка",
+          "relatedTo": "i-i-s-9-заявка",
+          "inverse": null
+        },
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Регистр",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [],
+          "index": 5,
+          "type": "default",
+          "caption": "Регистр",
+          "name": "регистр",
+          "relatedTo": "i-i-s-9-регистр",
+          "inverse": null
+        }
+      ],
       "hasMany": []
     }
   ],

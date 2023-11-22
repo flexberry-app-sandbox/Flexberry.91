@@ -16,15 +16,6 @@
       "ordered": false
     },
     {
-      "name": "контр",
-      "type": "number",
-      "flexberryType": "int",
-      "notNull": false,
-      "defaultValue": "",
-      "stored": true,
-      "ordered": false
-    },
-    {
       "name": "номЗаяв",
       "type": "string",
       "flexberryType": "string",
@@ -79,9 +70,56 @@
           "caption": "Текст",
           "hidden": false,
           "index": 0
+        },
+        {
+          "name": "важност",
+          "caption": "",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "номЗаяв",
+          "caption": "",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "состоян",
+          "caption": "",
+          "hidden": false,
+          "index": 3
         }
       ],
-      "belongsTo": [],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Контрагент",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [],
+          "index": 4,
+          "type": "default",
+          "caption": "",
+          "name": "контрагент",
+          "relatedTo": "i-i-s-9-контрагент",
+          "inverse": null
+        },
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Сотрудник",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [],
+          "index": 5,
+          "type": "default",
+          "caption": "",
+          "name": "сотрудник",
+          "relatedTo": "i-i-s-9-сотрудник",
+          "inverse": null
+        }
+      ],
       "hasMany": []
     },
     {
@@ -93,9 +131,56 @@
           "caption": "Текст",
           "hidden": false,
           "index": 0
+        },
+        {
+          "name": "важност",
+          "caption": "",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "номЗаяв",
+          "caption": "",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "состоян",
+          "caption": "",
+          "hidden": false,
+          "index": 3
         }
       ],
-      "belongsTo": [],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Контрагент",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [],
+          "index": 4,
+          "type": "default",
+          "caption": "",
+          "name": "контрагент",
+          "relatedTo": "i-i-s-9-контрагент",
+          "inverse": null
+        },
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Сотрудник",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [],
+          "index": 5,
+          "type": "default",
+          "caption": "",
+          "name": "сотрудник",
+          "relatedTo": "i-i-s-9-сотрудник",
+          "inverse": null
+        }
+      ],
       "hasMany": []
     },
     {
@@ -107,9 +192,56 @@
           "caption": "Текст",
           "hidden": false,
           "index": 0
+        },
+        {
+          "name": "важност",
+          "caption": "",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "номЗаяв",
+          "caption": "",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "состоян",
+          "caption": "",
+          "hidden": false,
+          "index": 3
         }
       ],
-      "belongsTo": [],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Контрагент",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [],
+          "index": 4,
+          "type": "default",
+          "caption": "",
+          "name": "контрагент",
+          "relatedTo": "i-i-s-9-контрагент",
+          "inverse": null
+        },
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Сотрудник",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [],
+          "index": 5,
+          "type": "default",
+          "caption": "",
+          "name": "сотрудник",
+          "relatedTo": "i-i-s-9-сотрудник",
+          "inverse": null
+        }
+      ],
       "hasMany": []
     },
     {
@@ -117,13 +249,60 @@
       "modelName": "i-i-s-9-заявка",
       "attrs": [
         {
+          "name": "номЗаяв",
+          "caption": "",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "состоян",
+          "caption": "",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "важност",
+          "caption": "",
+          "hidden": false,
+          "index": 2
+        },
+        {
           "name": "текст",
           "caption": "Текст",
           "hidden": false,
-          "index": 0
+          "index": 3
         }
       ],
-      "belongsTo": [],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Контрагент",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [],
+          "index": 4,
+          "type": "default",
+          "caption": "",
+          "name": "контрагент",
+          "relatedTo": "i-i-s-9-контрагент",
+          "inverse": null
+        },
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Сотрудник",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [],
+          "index": 5,
+          "type": "default",
+          "caption": "",
+          "name": "сотрудник",
+          "relatedTo": "i-i-s-9-сотрудник",
+          "inverse": null
+        }
+      ],
       "hasMany": []
     }
   ],

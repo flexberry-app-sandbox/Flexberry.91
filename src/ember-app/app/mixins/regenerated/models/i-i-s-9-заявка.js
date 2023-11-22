@@ -6,7 +6,6 @@ import { attr, belongsTo, hasMany } from 'ember-flexberry-data/utils/attributes'
 
 export let Model = Mixin.create({
   важност: DS.attr('string'),
-  контр: DS.attr('number'),
   номЗаяв: DS.attr('string'),
   состоян: DS.attr('string'),
   текст: DS.attr('string'),
@@ -19,13 +18,6 @@ export let ValidationRules = {
     descriptionKey: 'models.i-i-s-9-заявка.validations.важност.__caption__',
     validators: [
       validator('ds-error'),
-    ],
-  },
-  контр: {
-    descriptionKey: 'models.i-i-s-9-заявка.validations.контр.__caption__',
-    validators: [
-      validator('ds-error'),
-      validator('number', { allowString: true, allowBlank: true, integer: true }),
     ],
   },
   номЗаяв: {
@@ -64,18 +56,54 @@ export let ValidationRules = {
 
 export let defineProjections = function (modelClass) {
   modelClass.defineProjection('ЗаявкаE', 'i-i-s-9-заявка', {
-    текст: attr('Текст', { index: 0 })
+    текст: attr('Текст', { index: 0 }),
+    важност: attr('', { index: 1 }),
+    номЗаяв: attr('', { index: 2 }),
+    состоян: attr('', { index: 3 }),
+    контрагент: belongsTo('i-i-s-9-контрагент', '', {
+
+    }, { index: 4 }),
+    сотрудник: belongsTo('i-i-s-9-сотрудник', '', {
+
+    }, { index: 5 })
   });
 
   modelClass.defineProjection('ЗаявкаL', 'i-i-s-9-заявка', {
-    текст: attr('Текст', { index: 0 })
+    текст: attr('Текст', { index: 0 }),
+    важност: attr('', { index: 1 }),
+    номЗаяв: attr('', { index: 2 }),
+    состоян: attr('', { index: 3 }),
+    контрагент: belongsTo('i-i-s-9-контрагент', '', {
+
+    }, { index: 4 }),
+    сотрудник: belongsTo('i-i-s-9-сотрудник', '', {
+
+    }, { index: 5 })
   });
 
   modelClass.defineProjection('ЗаявкаНаРаботыE', 'i-i-s-9-заявка', {
-    текст: attr('Текст', { index: 0 })
+    текст: attr('Текст', { index: 0 }),
+    важност: attr('', { index: 1 }),
+    номЗаяв: attr('', { index: 2 }),
+    состоян: attr('', { index: 3 }),
+    контрагент: belongsTo('i-i-s-9-контрагент', '', {
+
+    }, { index: 4 }),
+    сотрудник: belongsTo('i-i-s-9-сотрудник', '', {
+
+    }, { index: 5 })
   });
 
   modelClass.defineProjection('ЗаявкаНаРаботыL', 'i-i-s-9-заявка', {
-    текст: attr('Текст', { index: 0 })
+    номЗаяв: attr('', { index: 0 }),
+    состоян: attr('', { index: 1 }),
+    важност: attr('', { index: 2 }),
+    текст: attr('Текст', { index: 3 }),
+    контрагент: belongsTo('i-i-s-9-контрагент', '', {
+
+    }, { index: 4 }),
+    сотрудник: belongsTo('i-i-s-9-сотрудник', '', {
+
+    }, { index: 5 })
   });
 };

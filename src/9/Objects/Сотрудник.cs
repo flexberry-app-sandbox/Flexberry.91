@@ -29,9 +29,13 @@ namespace IIS.9
     [AutoAltered()]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("СотрудникE", new string[] {
-            "КодДолж as \'Код долж\'",
             "Имя as \'Имя\'",
-            "Должности as \'Должности\'"})]
+            "Фамил",
+            "Отчест",
+            "Должности as \'Должности\'",
+            "НомПасп",
+            "Серия",
+            "ТабНом"})]
     [View("СотрудникL", new string[] {
             "Имя as \'Имя\'",
             "Должности as \'Должности\'",
@@ -45,8 +49,6 @@ namespace IIS.9
     {
         
         private string fФамил;
-        
-        private int fКодДолж;
         
         private string fТабНом;
         
@@ -94,37 +96,6 @@ namespace IIS.9
                 // *** Start programmer edit section *** (Сотрудник.Имя Set end)
 
                 // *** End programmer edit section *** (Сотрудник.Имя Set end)
-            }
-        }
-        
-        /// <summary>
-        /// КодДолж.
-        /// </summary>
-        // *** Start programmer edit section *** (Сотрудник.КодДолж CustomAttributes)
-
-        // *** End programmer edit section *** (Сотрудник.КодДолж CustomAttributes)
-        public virtual int КодДолж
-        {
-            get
-            {
-                // *** Start programmer edit section *** (Сотрудник.КодДолж Get start)
-
-                // *** End programmer edit section *** (Сотрудник.КодДолж Get start)
-                int result = this.fКодДолж;
-                // *** Start programmer edit section *** (Сотрудник.КодДолж Get end)
-
-                // *** End programmer edit section *** (Сотрудник.КодДолж Get end)
-                return result;
-            }
-            set
-            {
-                // *** Start programmer edit section *** (Сотрудник.КодДолж Set start)
-
-                // *** End programmer edit section *** (Сотрудник.КодДолж Set start)
-                this.fКодДолж = value;
-                // *** Start programmer edit section *** (Сотрудник.КодДолж Set end)
-
-                // *** End programmer edit section *** (Сотрудник.КодДолж Set end)
             }
         }
         

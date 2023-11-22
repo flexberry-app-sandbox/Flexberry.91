@@ -26,8 +26,6 @@ CREATE TABLE "Сотрудник"
 
 	"Фамил" NVARCHAR2(255) NULL,
 
-	"КодДолж" NUMBER(10) NULL,
-
 	"ТабНом" NVARCHAR2(255) NULL,
 
 	"НомПасп" NUMBER(10) NULL,
@@ -50,8 +48,6 @@ CREATE TABLE "Заявка"
 	"primaryKey" RAW(16) NOT NULL,
 
 	"Текст" NVARCHAR2(255) NULL,
-
-	"Контр" NUMBER(10) NULL,
 
 	"Состоян" NVARCHAR2(255) NULL,
 

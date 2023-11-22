@@ -23,8 +23,6 @@ CREATE TABLE [Сотрудник] (
 
 	 [Имя] VARCHAR(255)  NULL,
 
-	 [КодДолж] INT  NULL,
-
 	 [НомПасп] INT  NULL,
 
 	 [Отчест] VARCHAR(255)  NULL,
@@ -45,8 +43,6 @@ CREATE TABLE [Заявка] (
 	 [primaryKey] UNIQUEIDENTIFIER  NOT NULL,
 
 	 [Важност] VARCHAR(255)  NULL,
-
-	 [Контр] INT  NULL,
 
 	 [НомЗаяв] VARCHAR(255)  NULL,
 

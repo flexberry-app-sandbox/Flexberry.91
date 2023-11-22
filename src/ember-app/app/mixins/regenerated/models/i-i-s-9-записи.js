@@ -75,13 +75,25 @@ export let defineProjections = function (modelClass) {
     кодЗаписи: attr('Код записи', { index: 0 }),
     дата: attr('Дата', { index: 1 }),
     времНач: attr('Врем нач', { index: 2 }),
-    времОкон: attr('Врем окон', { index: 3 })
+    времОкон: attr('Врем окон', { index: 3 }),
+    заявка: belongsTo('i-i-s-9-заявка', 'Заявка', {
+
+    }, { index: 4 }),
+    регистр: belongsTo('i-i-s-9-регистр', 'Регистр', {
+
+    }, { index: 5 })
   });
 
   modelClass.defineProjection('ЗаписиL', 'i-i-s-9-записи', {
     кодЗаписи: attr('Код записи', { index: 0 }),
     дата: attr('Дата', { index: 1 }),
     времНач: attr('Врем нач', { index: 2 }),
-    времОкон: attr('Врем окон', { index: 3 })
+    времОкон: attr('Врем окон', { index: 3 }),
+    заявка: belongsTo('i-i-s-9-заявка', 'Заявка', {
+
+    }, { index: 4 }),
+    регистр: belongsTo('i-i-s-9-регистр', 'Регистр', {
+
+    }, { index: 5 })
   });
 };

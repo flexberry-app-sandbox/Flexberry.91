@@ -15,7 +15,6 @@ CREATE TABLE Регистр (
 CREATE TABLE Сотрудник (
  primaryKey UUID NOT NULL,
  Фамил VARCHAR(255) NULL,
- КодДолж INT NULL,
  ТабНом VARCHAR(255) NULL,
  НомПасп INT NULL,
  Имя VARCHAR(255) NULL,
@@ -28,7 +27,6 @@ CREATE TABLE Сотрудник (
 CREATE TABLE Заявка (
  primaryKey UUID NOT NULL,
  Текст VARCHAR(255) NULL,
- Контр INT NULL,
  Состоян VARCHAR(255) NULL,
  Важност VARCHAR(255) NULL,
  НомЗаяв VARCHAR(255) NULL,

@@ -30,19 +30,37 @@ namespace IIS.9
     [Caption("Заявка на работы")]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("ЗаявкаE", new string[] {
-            "Текст as \'Текст\'"})]
+            "Текст as \'Текст\'",
+            "Важност",
+            "НомЗаяв",
+            "Состоян",
+            "Контрагент",
+            "Сотрудник"})]
     [View("ЗаявкаL", new string[] {
-            "Текст as \'Текст\'"})]
+            "Текст as \'Текст\'",
+            "Важност",
+            "НомЗаяв",
+            "Состоян",
+            "Контрагент",
+            "Сотрудник"})]
     [View("ЗаявкаНаРаботыE", new string[] {
-            "Текст as \'Текст\'"})]
+            "Текст as \'Текст\'",
+            "Важност",
+            "НомЗаяв",
+            "Состоян",
+            "Контрагент",
+            "Сотрудник"})]
     [View("ЗаявкаНаРаботыL", new string[] {
-            "Текст as \'Текст\'"})]
+            "НомЗаяв",
+            "Состоян",
+            "Важност",
+            "Текст as \'Текст\'",
+            "Контрагент",
+            "Сотрудник"})]
     public class Заявка : ICSSoft.STORMNET.DataObject
     {
         
         private string fТекст;
-        
-        private int fКонтр;
         
         private string fСостоян;
         
@@ -88,37 +106,6 @@ namespace IIS.9
                 // *** Start programmer edit section *** (Заявка.Важност Set end)
 
                 // *** End programmer edit section *** (Заявка.Важност Set end)
-            }
-        }
-        
-        /// <summary>
-        /// Контр.
-        /// </summary>
-        // *** Start programmer edit section *** (Заявка.Контр CustomAttributes)
-
-        // *** End programmer edit section *** (Заявка.Контр CustomAttributes)
-        public virtual int Контр
-        {
-            get
-            {
-                // *** Start programmer edit section *** (Заявка.Контр Get start)
-
-                // *** End programmer edit section *** (Заявка.Контр Get start)
-                int result = this.fКонтр;
-                // *** Start programmer edit section *** (Заявка.Контр Get end)
-
-                // *** End programmer edit section *** (Заявка.Контр Get end)
-                return result;
-            }
-            set
-            {
-                // *** Start programmer edit section *** (Заявка.Контр Set start)
-
-                // *** End programmer edit section *** (Заявка.Контр Set start)
-                this.fКонтр = value;
-                // *** Start programmer edit section *** (Заявка.Контр Set end)
-
-                // *** End programmer edit section *** (Заявка.Контр Set end)
             }
         }
         
