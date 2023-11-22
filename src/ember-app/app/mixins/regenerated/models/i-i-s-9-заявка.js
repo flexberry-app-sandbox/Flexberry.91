@@ -56,29 +56,29 @@ export let ValidationRules = {
 
 export let defineProjections = function (modelClass) {
   modelClass.defineProjection('ЗаявкаE', 'i-i-s-9-заявка', {
-    текст: attr('Текст', { index: 0 }),
-    важност: attr('', { index: 1 }),
-    номЗаяв: attr('', { index: 2 }),
-    состоян: attr('', { index: 3 }),
-    контрагент: belongsTo('i-i-s-9-контрагент', '', {
+    номЗаяв: attr('Номер заяв', { index: 0 }),
+    важност: attr('Важность', { index: 1 }),
+    состоян: attr('Состояние', { index: 2 }),
+    текст: attr('Текст', { index: 5 }),
+    контрагент: belongsTo('i-i-s-9-контрагент', 'Контрагент', {
 
-    }, { index: 4 }),
-    сотрудник: belongsTo('i-i-s-9-сотрудник', '', {
+    }, { index: 3 }),
+    сотрудник: belongsTo('i-i-s-9-сотрудник', 'Сотрудник', {
 
-    }, { index: 5 })
+    }, { index: 4 })
   });
 
   modelClass.defineProjection('ЗаявкаL', 'i-i-s-9-заявка', {
-    текст: attr('Текст', { index: 0 }),
-    важност: attr('', { index: 1 }),
-    номЗаяв: attr('', { index: 2 }),
-    состоян: attr('', { index: 3 }),
-    контрагент: belongsTo('i-i-s-9-контрагент', '', {
+    номЗаяв: attr('Номер заявки', { index: 0 }),
+    важност: attr('Важность', { index: 1 }),
+    состоян: attr('Состояние', { index: 2 }),
+    текст: attr('Текст', { index: 5 }),
+    контрагент: belongsTo('i-i-s-9-контрагент', 'Контрагент', {
 
-    }, { index: 4 }),
-    сотрудник: belongsTo('i-i-s-9-сотрудник', '', {
+    }, { index: 3 }),
+    сотрудник: belongsTo('i-i-s-9-сотрудник', 'Сотрудник', {
 
-    }, { index: 5 })
+    }, { index: 4 })
   });
 
   modelClass.defineProjection('ЗаявкаНаРаботыE', 'i-i-s-9-заявка', {

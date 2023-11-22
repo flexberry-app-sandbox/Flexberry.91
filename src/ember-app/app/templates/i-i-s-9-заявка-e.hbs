@@ -27,12 +27,12 @@
   <div class="field">
     {{flexberry-field
       readonly=readonly
-      value=model.текст
-      class=(if (v-get validationModel "текст" "isInvalid") "error")
-      label=(t "forms.i-i-s-9-заявка-e.текст-caption")
-      data-test-i-i-s-9-заявка-e-текст=true
+      value=model.номЗаяв
+      class=(if (v-get validationModel "номЗаяв" "isInvalid") "error")
+      label=(t "forms.i-i-s-9-заявка-e.номЗаяв-caption")
+      data-test-i-i-s-9-заявка-e-номЗаяв=true
     }}
-    {{flexberry-validationmessage error=(v-get validationModel "текст" "message")}}
+    {{flexberry-validationmessage error=(v-get validationModel "номЗаяв" "message")}}
   </div>
   <div class="field">
     {{flexberry-field
@@ -43,16 +43,6 @@
       data-test-i-i-s-9-заявка-e-важност=true
     }}
     {{flexberry-validationmessage error=(v-get validationModel "важност" "message")}}
-  </div>
-  <div class="field">
-    {{flexberry-field
-      readonly=readonly
-      value=model.номЗаяв
-      class=(if (v-get validationModel "номЗаяв" "isInvalid") "error")
-      label=(t "forms.i-i-s-9-заявка-e.номЗаяв-caption")
-      data-test-i-i-s-9-заявка-e-номЗаяв=true
-    }}
-    {{flexberry-validationmessage error=(v-get validationModel "номЗаяв" "message")}}
   </div>
   <div class="field">
     {{flexberry-field
@@ -95,5 +85,15 @@
       data-test-i-i-s-9-заявка-e-сотрудник=true
     }}
     {{flexberry-validationmessage error=(v-get validationModel "сотрудник" "message")}}
+  </div>
+  <div class="field">
+    {{flexberry-field
+      readonly=readonly
+      value=model.текст
+      class=(if (v-get validationModel "текст" "isInvalid") "error")
+      label=(t "forms.i-i-s-9-заявка-e.текст-caption")
+      data-test-i-i-s-9-заявка-e-текст=true
+    }}
+    {{flexberry-validationmessage error=(v-get validationModel "текст" "message")}}
   </div>
 </form>

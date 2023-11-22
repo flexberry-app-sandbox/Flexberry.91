@@ -29,9 +29,15 @@ namespace IIS.9
     [AutoAltered()]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("КонтрагентE", new string[] {
-            "Договор as \'Договор\'"})]
+            "Договор as \'Договор\'",
+            "Контр as \'Контраген\'",
+            "Наимен as \'Наимено\'",
+            "Организ as \'Организац\'"})]
     [View("КонтрагентL", new string[] {
-            "Договор as \'Договор\'"})]
+            "Договор as \'Договор\'",
+            "Контр as \'Контр\'",
+            "Наимен as \'Наимен\'",
+            "Организ as \'Организ\'"})]
     public class Контрагент : ICSSoft.STORMNET.DataObject
     {
         

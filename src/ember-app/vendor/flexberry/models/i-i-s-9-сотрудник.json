@@ -77,40 +77,40 @@
       "modelName": "i-i-s-9-сотрудник",
       "attrs": [
         {
-          "name": "имя",
-          "caption": "Имя",
+          "name": "табНом",
+          "caption": "Таб номер",
           "hidden": false,
           "index": 0
         },
         {
-          "name": "фамил",
-          "caption": "",
+          "name": "имя",
+          "caption": "Имя",
           "hidden": false,
           "index": 1
         },
         {
-          "name": "отчест",
-          "caption": "",
+          "name": "фамил",
+          "caption": "Фамилия",
           "hidden": false,
           "index": 2
         },
         {
+          "name": "отчест",
+          "caption": "Отчество",
+          "hidden": false,
+          "index": 3
+        },
+        {
           "name": "номПасп",
-          "caption": "",
+          "caption": "Номер пасп",
           "hidden": false,
           "index": 4
         },
         {
           "name": "серия",
-          "caption": "",
+          "caption": "Серия пасп",
           "hidden": false,
           "index": 5
-        },
-        {
-          "name": "табНом",
-          "caption": "",
-          "hidden": false,
-          "index": 6
         }
       ],
       "belongsTo": [
@@ -121,9 +121,9 @@
           "belongsTo": [],
           "hidden": false,
           "attrs": [],
-          "index": 3,
+          "index": 6,
           "type": "default",
-          "caption": "Должности",
+          "caption": "Должность",
           "name": "должности",
           "relatedTo": "i-i-s-9-должности",
           "inverse": null
@@ -136,34 +136,40 @@
       "modelName": "i-i-s-9-сотрудник",
       "attrs": [
         {
-          "name": "имя",
-          "caption": "Имя",
+          "name": "табНом",
+          "caption": "Таб номер",
           "hidden": false,
           "index": 0
         },
         {
+          "name": "имя",
+          "caption": "Имя",
+          "hidden": false,
+          "index": 1
+        },
+        {
           "name": "фамил",
-          "caption": "",
+          "caption": "Фамил",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "серия",
+          "caption": "Серия паспорт",
+          "hidden": false,
+          "index": 3
+        },
+        {
+          "name": "отчест",
+          "caption": "Отчество",
           "hidden": false,
           "index": 4
         },
         {
-          "name": "серия",
-          "caption": "",
+          "name": "номПасп",
+          "caption": "Номер паспо",
           "hidden": false,
           "index": 5
-        },
-        {
-          "name": "отчест",
-          "caption": "",
-          "hidden": false,
-          "index": 6
-        },
-        {
-          "name": "номПасп",
-          "caption": "",
-          "hidden": false,
-          "index": 7
         }
       ],
       "belongsTo": [
@@ -173,23 +179,10 @@
           "relationName": "Должности",
           "belongsTo": [],
           "hidden": false,
-          "attrs": [
-            {
-              "name": "наимен",
-              "caption": "",
-              "hidden": false,
-              "index": 2
-            },
-            {
-              "name": "кодДолж",
-              "caption": "",
-              "hidden": false,
-              "index": 3
-            }
-          ],
-          "index": 1,
+          "attrs": [],
+          "index": 6,
           "type": "default",
-          "caption": "Должности",
+          "caption": "Должность",
           "name": "должности",
           "relatedTo": "i-i-s-9-должности",
           "inverse": null

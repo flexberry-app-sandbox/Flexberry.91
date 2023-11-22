@@ -29,9 +29,13 @@ namespace IIS.9
     [AutoAltered()]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("РегистрE", new string[] {
+            "КодРегист as \'Код регистра\'",
             "Регистрат as \'Регистрат\'",
-            "Период as \'Период\'"})]
+            "Период as \'Период\'",
+            "Наимен as \'Наименов\'"})]
     [View("РегистрL", new string[] {
+            "КодРегист as \'Код регист\'",
+            "Наимен as \'Наименование\'",
             "Регистрат as \'Регистрат\'",
             "Период as \'Период\'"})]
     public class Регистр : ICSSoft.STORMNET.DataObject

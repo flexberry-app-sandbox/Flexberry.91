@@ -41,10 +41,16 @@ export let ValidationRules = {
 
 export let defineProjections = function (modelClass) {
   modelClass.defineProjection('КонтрагентE', 'i-i-s-9-контрагент', {
-    договор: attr('Договор', { index: 0 })
+    договор: attr('Договор', { index: 0 }),
+    контр: attr('Контраген', { index: 1 }),
+    наимен: attr('Наимено', { index: 2 }),
+    организ: attr('Организац', { index: 3 })
   });
 
   modelClass.defineProjection('КонтрагентL', 'i-i-s-9-контрагент', {
-    договор: attr('Договор', { index: 0 })
+    договор: attr('Договор', { index: 0 }),
+    контр: attr('Контр', { index: 1 }),
+    наимен: attr('Наимен', { index: 2 }),
+    организ: attr('Организ', { index: 3 })
   });
 };

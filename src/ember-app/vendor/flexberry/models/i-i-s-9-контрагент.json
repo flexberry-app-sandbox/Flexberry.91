@@ -55,6 +55,24 @@
           "caption": "Договор",
           "hidden": false,
           "index": 0
+        },
+        {
+          "name": "контр",
+          "caption": "Контраген",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "наимен",
+          "caption": "Наимено",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "организ",
+          "caption": "Организац",
+          "hidden": false,
+          "index": 3
         }
       ],
       "belongsTo": [],
@@ -69,6 +87,24 @@
           "caption": "Договор",
           "hidden": false,
           "index": 0
+        },
+        {
+          "name": "контр",
+          "caption": "Контр",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "наимен",
+          "caption": "Наимен",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "организ",
+          "caption": "Организ",
+          "hidden": false,
+          "index": 3
         }
       ],
       "belongsTo": [],

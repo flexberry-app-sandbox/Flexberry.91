@@ -1,6 +1,9 @@
 export default {
   projections: {
     СотрудникE: {
+      табНом: {
+        __caption__: ''
+      },
       имя: {
         __caption__: 'Имя'
       },
@@ -14,9 +17,6 @@ export default {
         __caption__: ''
       },
       серия: {
-        __caption__: ''
-      },
-      табНом: {
         __caption__: ''
       },
       должности: {
@@ -27,17 +27,11 @@ export default {
       }
     },
     СотрудникL: {
+      табНом: {
+        __caption__: 'Таб номер'
+      },
       имя: {
         __caption__: 'Имя'
-      },
-      должности: {
-        __caption__: '',
-        наимен: {
-          __caption__: ''
-        },
-        кодДолж: {
-          __caption__: ''
-        }
       },
       фамил: {
         __caption__: ''
@@ -50,6 +44,15 @@ export default {
       },
       номПасп: {
         __caption__: ''
+      },
+      должности: {
+        __caption__: '',
+        наимен: {
+          __caption__: ''
+        },
+        кодДолж: {
+          __caption__: ''
+        }
       },
       кодДолж: {
         __caption__: 'Код долж'
