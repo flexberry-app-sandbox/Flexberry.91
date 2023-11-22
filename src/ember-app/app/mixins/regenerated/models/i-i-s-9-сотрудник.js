@@ -64,24 +64,24 @@ export let ValidationRules = {
 
 export let defineProjections = function (modelClass) {
   modelClass.defineProjection('СотрудникE', 'i-i-s-9-сотрудник', {
-    табНом: attr('Таб номер', { index: 0 }),
+    табНом: attr('ТабНомер', { index: 0 }),
     имя: attr('Имя', { index: 1 }),
     фамил: attr('Фамилия', { index: 2 }),
     отчест: attr('Отчество', { index: 3 }),
-    номПасп: attr('Номер пасп', { index: 4 }),
-    серия: attr('Серия пасп', { index: 5 }),
+    номПасп: attr('НомерПасп', { index: 4 }),
+    серия: attr('СерияПасп', { index: 5 }),
     должности: belongsTo('i-i-s-9-должности', 'Должность', {
 
     }, { index: 6 })
   });
 
   modelClass.defineProjection('СотрудникL', 'i-i-s-9-сотрудник', {
-    табНом: attr('Таб номер', { index: 0 }),
-    имя: attr('Имя', { index: 1 }),
-    фамил: attr('Фамил', { index: 2 }),
-    серия: attr('Серия паспорт', { index: 3 }),
+    табНом: attr('ТабНомер', { index: 0 }),
+    имя: attr('Имя ', { index: 1 }),
+    фамил: attr('Фамилия', { index: 2 }),
+    серия: attr('СерияПаспорта', { index: 3 }),
     отчест: attr('Отчество', { index: 4 }),
-    номПасп: attr('Номер паспо', { index: 5 }),
+    номПасп: attr('НомерПас', { index: 5 }),
     должности: belongsTo('i-i-s-9-должности', 'Должность', {
 
     }, { index: 6 })

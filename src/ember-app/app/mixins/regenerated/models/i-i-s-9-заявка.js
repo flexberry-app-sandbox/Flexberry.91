@@ -82,27 +82,27 @@ export let defineProjections = function (modelClass) {
   });
 
   modelClass.defineProjection('ЗаявкаНаРаботыE', 'i-i-s-9-заявка', {
-    текст: attr('Текст', { index: 0 }),
-    важност: attr('', { index: 1 }),
-    номЗаяв: attr('', { index: 2 }),
-    состоян: attr('', { index: 3 }),
-    контрагент: belongsTo('i-i-s-9-контрагент', '', {
+    номЗаяв: attr('Номер', { index: 0 }),
+    текст: attr('Текст', { index: 1 }),
+    важност: attr('Важность', { index: 2 }),
+    состоян: attr('Состояние', { index: 3 }),
+    контрагент: belongsTo('i-i-s-9-контрагент', 'Контрагент', {
 
     }, { index: 4 }),
-    сотрудник: belongsTo('i-i-s-9-сотрудник', '', {
+    сотрудник: belongsTo('i-i-s-9-сотрудник', 'Сотрудник', {
 
     }, { index: 5 })
   });
 
   modelClass.defineProjection('ЗаявкаНаРаботыL', 'i-i-s-9-заявка', {
-    номЗаяв: attr('', { index: 0 }),
-    состоян: attr('', { index: 1 }),
-    важност: attr('', { index: 2 }),
+    номЗаяв: attr('Номер', { index: 0 }),
+    состоян: attr('Состояние', { index: 1 }),
+    важност: attr('Важность', { index: 2 }),
     текст: attr('Текст', { index: 3 }),
-    контрагент: belongsTo('i-i-s-9-контрагент', '', {
+    контрагент: belongsTo('i-i-s-9-контрагент', 'Контрагент', {
 
     }, { index: 4 }),
-    сотрудник: belongsTo('i-i-s-9-сотрудник', '', {
+    сотрудник: belongsTo('i-i-s-9-сотрудник', 'Сотрудник', {
 
     }, { index: 5 })
   });

@@ -188,26 +188,26 @@
       "modelName": "i-i-s-9-заявка",
       "attrs": [
         {
-          "name": "текст",
-          "caption": "Текст",
+          "name": "номЗаяв",
+          "caption": "Номер",
           "hidden": false,
           "index": 0
         },
         {
-          "name": "важност",
-          "caption": "",
+          "name": "текст",
+          "caption": "Текст",
           "hidden": false,
           "index": 1
         },
         {
-          "name": "номЗаяв",
-          "caption": "",
+          "name": "важност",
+          "caption": "Важность",
           "hidden": false,
           "index": 2
         },
         {
           "name": "состоян",
-          "caption": "",
+          "caption": "Состояние",
           "hidden": false,
           "index": 3
         }
@@ -222,7 +222,7 @@
           "attrs": [],
           "index": 4,
           "type": "default",
-          "caption": "",
+          "caption": "Контрагент",
           "name": "контрагент",
           "relatedTo": "i-i-s-9-контрагент",
           "inverse": null
@@ -236,7 +236,7 @@
           "attrs": [],
           "index": 5,
           "type": "default",
-          "caption": "",
+          "caption": "Сотрудник",
           "name": "сотрудник",
           "relatedTo": "i-i-s-9-сотрудник",
           "inverse": null
@@ -250,19 +250,19 @@
       "attrs": [
         {
           "name": "номЗаяв",
-          "caption": "",
+          "caption": "Номер",
           "hidden": false,
           "index": 0
         },
         {
           "name": "состоян",
-          "caption": "",
+          "caption": "Состояние",
           "hidden": false,
           "index": 1
         },
         {
           "name": "важност",
-          "caption": "",
+          "caption": "Важность",
           "hidden": false,
           "index": 2
         },
@@ -283,7 +283,7 @@
           "attrs": [],
           "index": 4,
           "type": "default",
-          "caption": "",
+          "caption": "Контрагент",
           "name": "контрагент",
           "relatedTo": "i-i-s-9-контрагент",
           "inverse": null
@@ -297,7 +297,7 @@
           "attrs": [],
           "index": 5,
           "type": "default",
-          "caption": "",
+          "caption": "Сотрудник",
           "name": "сотрудник",
           "relatedTo": "i-i-s-9-сотрудник",
           "inverse": null

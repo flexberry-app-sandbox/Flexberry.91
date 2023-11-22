@@ -78,7 +78,7 @@
       "attrs": [
         {
           "name": "табНом",
-          "caption": "Таб номер",
+          "caption": "ТабНомер",
           "hidden": false,
           "index": 0
         },
@@ -102,13 +102,13 @@
         },
         {
           "name": "номПасп",
-          "caption": "Номер пасп",
+          "caption": "НомерПасп",
           "hidden": false,
           "index": 4
         },
         {
           "name": "серия",
-          "caption": "Серия пасп",
+          "caption": "СерияПасп",
           "hidden": false,
           "index": 5
         }
@@ -137,25 +137,25 @@
       "attrs": [
         {
           "name": "табНом",
-          "caption": "Таб номер",
+          "caption": "ТабНомер",
           "hidden": false,
           "index": 0
         },
         {
           "name": "имя",
-          "caption": "Имя",
+          "caption": "Имя ",
           "hidden": false,
           "index": 1
         },
         {
           "name": "фамил",
-          "caption": "Фамил",
+          "caption": "Фамилия",
           "hidden": false,
           "index": 2
         },
         {
           "name": "серия",
-          "caption": "Серия паспорт",
+          "caption": "СерияПаспорта",
           "hidden": false,
           "index": 3
         },
@@ -167,7 +167,7 @@
         },
         {
           "name": "номПасп",
-          "caption": "Номер паспо",
+          "caption": "НомерПас",
           "hidden": false,
           "index": 5
         }
