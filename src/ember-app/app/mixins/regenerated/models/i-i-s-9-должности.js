@@ -27,10 +27,12 @@ export let ValidationRules = {
 
 export let defineProjections = function (modelClass) {
   modelClass.defineProjection('ДолжностиE', 'i-i-s-9-должности', {
-    кодДолж: attr('Код долж', { index: 0 })
+    кодДолж: attr('Код долж', { index: 0 }),
+    наимен: attr('', { index: 1 })
   });
 
   modelClass.defineProjection('ДолжностиL', 'i-i-s-9-должности', {
-    кодДолж: attr('Код долж', { index: 0 })
+    кодДолж: attr('Код долж', { index: 0 }),
+    наимен: attr('', { index: 1 })
   });
 };

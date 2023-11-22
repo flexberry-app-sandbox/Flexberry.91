@@ -108,7 +108,7 @@
           "attrs": [],
           "index": 2,
           "type": "default",
-          "caption": "",
+          "caption": "Должности",
           "name": "должности",
           "relatedTo": "i-i-s-9-должности",
           "inverse": null
@@ -121,16 +121,34 @@
       "modelName": "i-i-s-9-сотрудник",
       "attrs": [
         {
-          "name": "кодДолж",
-          "caption": "Код долж",
+          "name": "имя",
+          "caption": "Имя",
           "hidden": false,
           "index": 0
         },
         {
-          "name": "имя",
-          "caption": "Имя",
+          "name": "фамил",
+          "caption": "",
           "hidden": false,
-          "index": 1
+          "index": 4
+        },
+        {
+          "name": "серия",
+          "caption": "",
+          "hidden": false,
+          "index": 5
+        },
+        {
+          "name": "отчест",
+          "caption": "",
+          "hidden": false,
+          "index": 6
+        },
+        {
+          "name": "номПасп",
+          "caption": "",
+          "hidden": false,
+          "index": 7
         }
       ],
       "belongsTo": [
@@ -145,12 +163,18 @@
               "name": "наимен",
               "caption": "",
               "hidden": false,
+              "index": 2
+            },
+            {
+              "name": "кодДолж",
+              "caption": "",
+              "hidden": false,
               "index": 3
             }
           ],
-          "index": 2,
+          "index": 1,
           "type": "default",
-          "caption": "",
+          "caption": "Должности",
           "name": "должности",
           "relatedTo": "i-i-s-9-должности",
           "inverse": null

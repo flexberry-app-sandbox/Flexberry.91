@@ -37,6 +37,12 @@
           "caption": "Код долж",
           "hidden": false,
           "index": 0
+        },
+        {
+          "name": "наимен",
+          "caption": "",
+          "hidden": false,
+          "index": 1
         }
       ],
       "belongsTo": [],
@@ -51,6 +57,12 @@
           "caption": "Код долж",
           "hidden": false,
           "index": 0
+        },
+        {
+          "name": "наимен",
+          "caption": "",
+          "hidden": false,
+          "index": 1
         }
       ],
       "belongsTo": [],

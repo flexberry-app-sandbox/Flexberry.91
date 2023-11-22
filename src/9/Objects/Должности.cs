@@ -29,9 +29,11 @@ namespace IIS.9
     [AutoAltered()]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("ДолжностиE", new string[] {
-            "КодДолж as \'Код долж\'"})]
+            "КодДолж as \'Код долж\'",
+            "Наимен"})]
     [View("ДолжностиL", new string[] {
-            "КодДолж as \'Код долж\'"})]
+            "КодДолж as \'Код долж\'",
+            "Наимен"})]
     public class Должности : ICSSoft.STORMNET.DataObject
     {
         

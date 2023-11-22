@@ -1,4 +1,5 @@
 export default {
   caption: 'Должности',
-  'кодДолж-caption': 'Код долж'
+  'кодДолж-caption': 'Код долж',
+  'наимен-caption': ''
 };

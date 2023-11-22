@@ -28,37 +28,37 @@ export default Controller.extend({
             link: 'i-i-s-9-регистр-l',
             caption: i18n.t('forms.application.sitemap.9.i-i-s-9-регистр-l.caption'),
             title: i18n.t('forms.application.sitemap.9.i-i-s-9-регистр-l.title'),
-            icon: 'tags',
+            icon: 'briefcase',
             children: null
           }, {
             link: 'i-i-s-9-сотрудник-l',
             caption: i18n.t('forms.application.sitemap.9.i-i-s-9-сотрудник-l.caption'),
             title: i18n.t('forms.application.sitemap.9.i-i-s-9-сотрудник-l.title'),
-            icon: 'building',
+            icon: 'tags',
             children: null
           }, {
             link: 'i-i-s-9-заявка-l',
             caption: i18n.t('forms.application.sitemap.9.i-i-s-9-заявка-l.caption'),
             title: i18n.t('forms.application.sitemap.9.i-i-s-9-заявка-l.title'),
-            icon: 'tags',
+            icon: 'chart bar',
             children: null
           }, {
             link: 'i-i-s-9-записи-l',
             caption: i18n.t('forms.application.sitemap.9.i-i-s-9-записи-l.caption'),
             title: i18n.t('forms.application.sitemap.9.i-i-s-9-записи-l.title'),
-            icon: 'book',
+            icon: 'chart bar',
             children: null
           }, {
             link: 'i-i-s-9-должности-l',
             caption: i18n.t('forms.application.sitemap.9.i-i-s-9-должности-l.caption'),
             title: i18n.t('forms.application.sitemap.9.i-i-s-9-должности-l.title'),
-            icon: 'folder open',
+            icon: 'suitcase',
             children: null
           }, {
             link: 'i-i-s-9-контрагент-l',
             caption: i18n.t('forms.application.sitemap.9.i-i-s-9-контрагент-l.caption'),
             title: i18n.t('forms.application.sitemap.9.i-i-s-9-контрагент-l.title'),
-            icon: 'briefcase',
+            icon: 'address card',
             children: null
           }]
         }
