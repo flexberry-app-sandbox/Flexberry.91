@@ -73,11 +73,17 @@ export let ValidationRules = {
 export let defineProjections = function (modelClass) {
   modelClass.defineProjection('СотрудникE', 'i-i-s-9-сотрудник', {
     кодДолж: attr('Код долж', { index: 0 }),
-    имя: attr('Имя', { index: 1 })
+    имя: attr('Имя', { index: 1 }),
+    должности: belongsTo('i-i-s-9-должности', '', {
+
+    }, { index: 2 })
   });
 
   modelClass.defineProjection('СотрудникL', 'i-i-s-9-сотрудник', {
     кодДолж: attr('Код долж', { index: 0 }),
-    имя: attr('Имя', { index: 1 })
+    имя: attr('Имя', { index: 1 }),
+    должности: belongsTo('i-i-s-9-должности', '', {
+      наимен: attr('', { index: 3 })
+    }, { index: 2 })
   });
 };

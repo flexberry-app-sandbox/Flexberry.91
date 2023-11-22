@@ -30,10 +30,13 @@ namespace IIS.9
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("СотрудникE", new string[] {
             "КодДолж as \'Код долж\'",
-            "Имя as \'Имя\'"})]
+            "Имя as \'Имя\'",
+            "Должности"})]
     [View("СотрудникL", new string[] {
             "КодДолж as \'Код долж\'",
-            "Имя as \'Имя\'"})]
+            "Имя as \'Имя\'",
+            "Должности",
+            "Должности.Наимен"})]
     public class Сотрудник : ICSSoft.STORMNET.DataObject
     {
         
